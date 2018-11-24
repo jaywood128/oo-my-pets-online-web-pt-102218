@@ -44,7 +44,6 @@ attr_accessor :name, :fishes, :dogs, :cats
     @pets[:dogs].each |dogs|
     dogs.mood = "happy"
     mood
-
   end
   # code goes here
 end
