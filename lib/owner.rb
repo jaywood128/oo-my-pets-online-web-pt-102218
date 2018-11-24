@@ -41,7 +41,9 @@ attr_accessor :name, :fishes, :dogs, :cats
   end
 
   def walk_dogs
-    binding.pry
+    @pets[:dogs].each |dogs|
+    dogs.mood = "happy"
+  end
 
   end
   # code goes here
