@@ -57,6 +57,6 @@ attr_accessor :name, :fishes, :dog, :cats
       fish.mood = "happy"
     end
   end
-  
+
   # code goes here
 end
