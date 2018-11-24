@@ -72,5 +72,9 @@ attr_accessor :name, :fishes, :dog, :cats, :pets
     @pets[:dogs].clear
     @pets[:cats].clear
   end
+
+  def list_pets
+    binding.pry
+    puts "I have #{}, #{}, and #{} cat(s)."
   # code goes here
 end
