@@ -59,6 +59,7 @@ attr_accessor :name, :fishes, :dog, :cats, :pets
   end
 
   def sell_pets
+    binding.pry
 
   end
 
