@@ -8,7 +8,7 @@ attr_accessor :name, :fishes, :dogs, :cats
   def initialize(name)
     @name = name
     @species = "human"
-    @@pets = {:fishes => [], :dogs => [], :cats => []}
+    @pets = {:fishes => [], :dogs => [], :cats => []}
     @@all << self
   end
 
@@ -24,7 +24,7 @@ attr_accessor :name, :fishes, :dogs, :cats
   end
 
   def say_species
-    "I am a #{species}."
+    "I am a #{@species}."
   end
 
   def buy_fish(name)
