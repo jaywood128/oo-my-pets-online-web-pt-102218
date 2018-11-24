@@ -43,6 +43,7 @@ attr_accessor :name, :fishes, :dogs, :cats
   def walk_dogs
     @pets[:dogs].each |dogs|
     dogs.mood = "happy"
+    mood
   end
 
   end
