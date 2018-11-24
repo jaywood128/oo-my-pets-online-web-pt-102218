@@ -59,7 +59,19 @@ attr_accessor :name, :fishes, :dog, :cats, :pets
   end
 
   def sell_pets
-    binding.pry
+    @pets[:fishes].each do |fish|
+      fish.mood = "nervous"
+    end
+    @pets[:dogs].each do |dog|
+      dog.mood = "nervous"
+    end
+    @pets[:cats].each do |cat|
+      cat.mood = "nervous"
+    end
+    @pets[:fishes].clear
+    @pets[:dogs].clear
+    @pets[:cats].clear
+  end
 
   end
 
