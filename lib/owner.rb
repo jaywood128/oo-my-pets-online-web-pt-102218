@@ -24,12 +24,12 @@ attr_accessor :name, :fishes, :dogs, :cats
   end
 
   def say_species
-    "I am a human."
+    "I am a #{species}."
   end
 
   def buy_fish(name)
     bought_fish = Fish.new(name)
-    @pets[:fishes] << bought_fish
+    @@pets[:fishes] << bought_fish
   end
 
   # code goes here
