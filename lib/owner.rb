@@ -42,7 +42,7 @@ attr_accessor :name, :fishes, :dogs, :cats
 
   def walk_dogs
     binding.pry
-    end
+  
   end
   # code goes here
 end
