@@ -39,5 +39,11 @@ attr_accessor :name, :fishes, :dogs, :cats
   def buy_dog(name)
     @pets[:dogs] << Dog.new(name)
   end
+
+  def walk_dogs
+    @pets[:dog].each do |dog|
+      dogs.mood = "happy"
+    end
+  end
   # code goes here
 end
