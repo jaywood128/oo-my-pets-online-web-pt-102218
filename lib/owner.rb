@@ -72,8 +72,5 @@ attr_accessor :name, :fishes, :dog, :cats, :pets
     @pets[:dogs].clear
     @pets[:cats].clear
   end
-
-  end
-
   # code goes here
 end
