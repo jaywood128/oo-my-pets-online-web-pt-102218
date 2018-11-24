@@ -51,5 +51,12 @@ attr_accessor :name, :fishes, :dog, :cats
       cat.mood = "happy"
     end
   end
+
+  def feed_fish
+    @pets[:fishes].each do |fish|
+      fish.mood = "happy"
+    end
+  end
+  
   # code goes here
 end
