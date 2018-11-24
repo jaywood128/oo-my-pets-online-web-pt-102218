@@ -11,7 +11,6 @@ attr_accessor :name, :fishes, :dogs, :cats
     @pets = {:fishes => [], :dogs => [], :cats => []}
     @@all << self
   end
-  binding.pry
 
   def self.all
     @@all
