@@ -58,7 +58,9 @@ attr_accessor :name, :fishes, :dog, :cats, :pets
     end
   end
 
-  def
+  def sell_pets
+
+  end
 
   # code goes here
 end
