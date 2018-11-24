@@ -46,7 +46,5 @@ attr_accessor :name, :fishes, :dogs, :cats
     mood
   end
   end
-
-  end
   # code goes here
 end
