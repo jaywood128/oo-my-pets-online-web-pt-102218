@@ -76,5 +76,6 @@ attr_accessor :name, :fishes, :dog, :cats, :pets
   def list_pets
     binding.pry
     puts "I have #{}, #{}, and #{} cat(s)."
+  end
   # code goes here
 end
